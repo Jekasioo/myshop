@@ -31,7 +31,7 @@
 import { ref, computed } from 'vue'
 import { useProductsStore } from '../stores/products'
 import { storeToRefs } from 'pinia'
-import ProductCard from '../components/ProductCard.vue'
+import ProductCard from '../Components/ProductCard.vue'
 
 const productsStore = useProductsStore()
 const { products } = storeToRefs(productsStore)

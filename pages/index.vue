@@ -68,7 +68,7 @@ import { ref, onMounted, onUnmounted, computed } from 'vue'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 import { useProductsStore } from '../stores/products'
-import FeaturedProject from '../components/FeaturedProject.vue'
+import FeaturedProject from '../Components/FeaturedProject.vue'
 
 const router = useRouter()
 const productsStore = useProductsStore()

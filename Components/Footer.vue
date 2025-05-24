@@ -71,7 +71,7 @@
 
 <script setup>
 import { ref } from 'vue'
-import ScrollingText from '../components/ScrollingText.vue'
+import ScrollingText from '../Components/ScrollingText.vue'
 
 const email = ref('')
 

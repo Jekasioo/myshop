@@ -39,7 +39,7 @@
 </template>
 
 <script setup>
-import ProductCard          from '../components/ProductCard.vue'
+import ProductCard          from '../Components/ProductCard.vue'
 import { computed }         from 'vue'
 import { useProductsStore } from '../stores/products'
 
